@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Countdown</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="description">
+        <h1>Contagem regressiva para <span class="event">o dia</span></h1>
+        <small>formato - dias:horas:minutos:segundos</small>
+      </div>
+      <div class="timer">
+        <span>00:</span>
+        <span>00:</span>
+        <span>00:</span>
+        <span>00</span>
+      </div>
+      <form id="form" name="form" class="form">
+        <label for="date">Data</label>
+        <input type="date" name="date" id="date" />
+        
+        <label for="event">Evento</label>
+        <input type="text" name="event" id="event" />
+        <button type="button" class="zero">Zerar</button>
+      </form>
+    </div>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
